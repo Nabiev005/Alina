@@ -1,4 +1,5 @@
 import React from 'react';
+import Alina from '../assets/Alina.jpeg';
 
 const About: React.FC<{ t: any }> = ({ t }) => {
   return (
@@ -16,7 +17,7 @@ const About: React.FC<{ t: any }> = ({ t }) => {
           <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-700"></div>
           <div className="relative glass aspect-square rounded-2xl overflow-hidden border border-white/10">
             <img 
-              src="../assets/alina.png" 
+              src={Alina} 
               alt="Alina" 
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
             />
