@@ -1,5 +1,5 @@
 import React from 'react';
-import Alina from '../assets/Alina.jpeg';
+import Alina from '../assets/Alina-1.jpg';
 
 const About: React.FC<{ t: any }> = ({ t }) => {
   return (
