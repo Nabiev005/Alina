@@ -25,7 +25,7 @@ const Hero: React.FC<{ t: any }> = ({ t }) => {
         <h1 className="text-4xl sm:text-6xl md:text-8xl font-extrabold tracking-tighter leading-[1.1]">
           {t.hero.title} <br className="hidden md:block" />
           <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-            Sulmuranmuratova
+            Sultanmuratova
           </span>
         </h1>
         
